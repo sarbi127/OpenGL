@@ -149,9 +149,14 @@
   <ItemGroup>
     <ClInclude Include="..\Dependencies\GLFW\include\shader_s.h" />
     <ClInclude Include="..\Dependencies\GLFW\include\stb_image.h" />
+    <ClInclude Include="src\camera.h" />
     <ClInclude Include="src\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="src\light_cube.fs" />
+    <None Include="src\light_cube.vs" />
+    <None Include="src\materials.fs" />
+    <None Include="src\materials.vs" />
     <None Include="src\texture.fs" />
     <None Include="src\texture.vs" />
   </ItemGroup>

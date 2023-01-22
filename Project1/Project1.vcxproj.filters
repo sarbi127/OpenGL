@@ -32,9 +32,16 @@
     <ClInclude Include="..\Dependencies\GLFW\include\shader_s.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\texture.vs" />
     <None Include="src\texture.fs" />
+    <None Include="src\materials.vs" />
+    <None Include="src\materials.fs" />
+    <None Include="src\light_cube.vs" />
+    <None Include="src\light_cube.fs" />
   </ItemGroup>
 </Project>
