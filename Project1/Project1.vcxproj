@@ -153,6 +153,8 @@
     <ClInclude Include="src\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="src\lighting_maps.fs" />
+    <None Include="src\lighting_maps.vs" />
     <None Include="src\light_cube.fs" />
     <None Include="src\light_cube.vs" />
     <None Include="src\materials.fs" />

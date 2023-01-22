@@ -43,5 +43,7 @@
     <None Include="src\materials.fs" />
     <None Include="src\light_cube.vs" />
     <None Include="src\light_cube.fs" />
+    <None Include="src\lighting_maps.vs" />
+    <None Include="src\lighting_maps.fs" />
   </ItemGroup>
 </Project>
